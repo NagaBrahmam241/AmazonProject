@@ -1,26 +1,26 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
 <suite name="TestSuite" parallel="false" thread-count="1">
-	<listeners>
-		<listener class-name="org.uncommons.reportng.HTMLReporter" />
-		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
-	</listeners>
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+    </listeners>
 
-	<test name="TestAddSingleProductToCart">
-		<classes>
-			<class name="TestCases.TestAddSingleProductToCart" />
-		</classes>
-	</test>
+    <test name="TestAddSingleProductToCart">
+        <classes>
+            <class name="TestCases.TestAddSingleProductToCart" />
+        </classes>
+    </test>
 
-	<test name="TestAddMultipleProductsToCart">
-		<classes>
-			<class name="TestCases.TestAddMultipleProductsToCart" />
-		</classes>
-	</test>
+    <test name="TestAddMultipleProductsToCart">
+        <classes>
+            <class name="TestCases.TestAddMultipleProductsToCart" />
+        </classes>
+    </test>
 
-	<test name="TestEditItemQuantityInCart">
-		<classes>
-			<class name="TestCases.TestEditItemQuantityInCart" />
-		</classes>
-	</test>
+    <test name="TestEditItemQuantityInCart">
+        <classes>
+            <class name="TestCases.TestEditItemQuantityInCart" />
+        </classes>
+    </test>
 </suite>

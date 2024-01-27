@@ -12,7 +12,8 @@ import Pages.AmazonHomePage;
 public class TestAddSingleProductToCart {
 	static WebDriver driver;
 	
-	@Test
+    @Test(description = "Verify adding a single product to the cart", priority = 1)
+
     public void testAddingSingleProductToCart() throws InterruptedException {
        
 		
