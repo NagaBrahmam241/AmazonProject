@@ -17,7 +17,7 @@ public class AmazonHomePage {
 	private static WebDriver driver;
 	String url = "https://www.amazon.in/";
 
-	// Constructor to initialize the WebDriver
+	
 	public AmazonHomePage(WebDriver driver) {
 		this.driver = driver;
 	}
