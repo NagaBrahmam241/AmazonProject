@@ -45,7 +45,7 @@ public class BaseTest {
         }
     }
 
-    // Method to capture screenshot
+    
     private void captureScreenshot(String screenshotName) {
         try {
             TakesScreenshot ts = (TakesScreenshot) driver;
